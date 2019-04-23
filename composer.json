@@ -1,12 +1,17 @@
 {
-    "name": "matheusdeveloper/design-patterns",
-    "description": "PHP design patterns implementation for study",
-    "type": "library",
-    "authors": [
-        {
-            "name": "Matheus Lima",
-            "email": "ma.limarodrigues@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "matheusdeveloper/design-patterns",
+  "description": "PHP design patterns implementation for study",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Matheus Lima",
+      "email": "ma.limarodrigues@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "DesignPatterns\\": "src/DesignPatterns"
+    }
+  }
 }
